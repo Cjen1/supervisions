@@ -1,0 +1,31 @@
+- Discuss DNS
+ - Outline its structure
+ - Outline iterated queries
+ - Outline recursive queries
+ - Why might it being organised by an american company be negative for the world?
+ - Given that DNS queries take > 500ms in most cases and each outgoing connection will requires one, how do we improve the speed of this?
+  - how can we ensure that failed queries fail fast?
+ - How can DNS servers be use for an amplified DDoS
+- Outline the format of URLs
+- HTTP
+ - Outline how connections are setup
+ - What are the three most common types of HTTP request?
+ - Why is the statelessness of HTTP difficult to work with and how do servers fix this?
+ - How do modern web browsers improve the performance of loading a web page?
+ - Discuss content delivery networks
+  - What are they?
+  - (optional) Look around Cloudflare's website :)
+  - What is a reverse proxy
+  - What is a forward proxy
+ - How do we host multiple sites within a single machine? (consolidation)
+  - Can we use the same approach to host multiple services (for example games servers) behind a NAT?
+ - How do we host a single site over multipel machines? (scalability and reliability)
+- Discuss QUIC
+ - What is it?
+ - Why is it implemented over UDP
+ - Who uses it?
+- Discuss Bittorrent
+ - Why is it useful for replicating 'linux ISOs'
+ - How does it function
+- Distributed Hash Table
+ - Outline its operation

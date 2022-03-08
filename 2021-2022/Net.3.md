@@ -1,0 +1,55 @@
+- Network Layer
+ - What is the purpose of this layer?
+ - Define simplex and duplex
+ - What is the difference between the data plane and the control plane
+  - Why is this separation also useful in other contexts (for example distributed databases)?
+ - What is the line rate of a switch
+ - What is a border or edge router?
+ - Routing table
+  - What is this
+  - Why does this allow the router to make fast forwarding decisions?
+  - Why is address fragmentation problematic for this table?
+   - How does IPv6 address this?
+ - What is an autonomous System
+ - What famous general problem is calculating routes equivalent to?
+ - Outline and compare Distance Vector and Link State routing
+  - Give the conceptual outline of each
+  - Under what condition is Link State routing better?
+  - Why does the Distance Vector routing break down?
+  - Find an example of BGP route advertisement resulting in a large proportion of internet traffic being routed via a single AS
+ - Describe a packets traversal through a router
+ - What is longest prefix matching and why does that result in 'optimal' delivery
+ - Describe each part of an IPv4 packet
+ - Why is the protocol specified within the packet header?
+ - Why is ip fragmentation required?
+ - Outline how to fragment a packet
+ - What addresses are in the following subnet: 192.168.16.0/23
+ - DHCP
+  - What is it meant to do?
+  - Outline the protocol
+ - What is a NAT
+  - Why is this required for legacy IPv4 networks?
+  - Why might some say that it improves the security of the system?
+  - Why does it pose difficulty with for example self hosted services (like game servers, or email servers)
+  - (optional) outline nat punch-through and discuss why it is beneficial for applications like Skype
+ - What are ICMP messages?
+ - Discuss IPv4 ARP
+ - Why does soft state result in robustness?
+ - IPv6
+  - Outline an IPv6 header
+  - Outline IPv6 packet fragmentation
+  - Outline an IPv6 address structure
+   - Why does this make routing easier?
+  - What do the following addresses mean:
+   - fe80::/10
+   - ::1
+   - fc00::/7
+   - 2000::/3
+   - ff00::/8
+  - What is IPv6 neighbor discovery
+  - Outline SLAAC
+   - What is its purpose
+  - What are router advertisements?
+  - Discuss 6to4 tunnels
+  - (optional) Outline possible reasons why after 20 years Virgin media still doesn't offer IPv6 to residential addresses
+   - Also note that they service a larger number of properties than they have address space.
