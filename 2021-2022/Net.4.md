@@ -1,47 +1,47 @@
 - Transport layer
- - What is it?
- - What are ports at the transport layer?
- - Why does this make running duplicate services from the same ip address difficult?
- - Why does the transport need to mux/demultiplex IP streams?
- - UDP
-  - Outline UDP
-  - What guarantees does this provide?
-  - Outline some C/pseudocode (but valid POSIX commands) code for a basic echo server
- - TCP
-  - What is the purpose of TCP
-  - How does it provide reliable delivery?
-  - Outline sequence numbers for reliable delivery
-  - Outline cumulative and selective acknowledgements
-  - Outline sliding windows
-  - Outline TCP :)
-   - Discuss the abstraction
-   - Discuss segmentation
-    - Why is it required
-    - How does it work
-   - What are TCP sequence numbers?
-   - Outline what happens when packets are lost
-   - How does TCP choose a retransmission timeout?
-   - How a connection is established
-   - How a connection is torn down under normal circumstances
-   - What is the purpose of RST
-   - Flow control
-    - Why is this needed for the receiver
-   - Congestion control
-    - Why is this needed?
-    - At a high level how does it achieve this (in terms of what is it estimating, and what additional considerations apply)
-    - Discuss approaches and why all of them are terrible :)
-     - Don't care
-     - Explicit reservation
-     - Pricing
-     - Dynamic adjustments
-    - Why does dynamic adjustment require cooperation (and why might a company like google cause a tragedy of the commons by 'optimising' their TCP congestion control)
-    - What signal is used to backoff?
-    - Where does the sawtooth come from?
-    - What phases are there to the standard algorithm
-    - What is Fast Recovery
-  - What are TCP's flavors
-  - How can routers help TCP congestion problems?
-   - Outline Max-Min Fairness
-   - Outline fair queuing
-   - (optional) Outline stocastic fair queueing (sfq) as implemented in Linux
-  - Outline some general 'fairness' qualities and discuss under what circumstances each might be optimal 
+  - What is it?
+  - What are ports at the transport layer?
+  - Why does this make running duplicate services from the same ip address difficult?
+  - Why does the transport need to mux/demultiplex IP streams?
+  - UDP
+    - Outline UDP
+    - What guarantees does this provide?
+    - Outline some C/pseudocode (but valid POSIX commands) code for a basic echo server
+  - TCP
+    - What is the purpose of TCP
+    - How does it provide reliable delivery?
+    - Outline sequence numbers for reliable delivery
+    - Outline cumulative and selective acknowledgements
+    - Outline sliding windows
+    - Outline TCP :)
+      - Discuss the abstraction
+      - Discuss segmentation
+        - Why is it required
+        - How does it work
+      - What are TCP sequence numbers?
+      - Outline what happens when packets are lost
+      - How does TCP choose a retransmission timeout?
+      - How a connection is established
+      - How a connection is torn down under normal circumstances
+      - What is the purpose of RST
+      - Flow control
+        - Why is this needed for the receiver
+      - Congestion control
+        - Why is this needed?
+        - At a high level how does it achieve this (in terms of what is it estimating, and what additional considerations apply)
+        - Discuss approaches and why all of them are terrible :)
+          - Don't care
+          - Explicit reservation
+          - Pricing
+          - Dynamic adjustments
+        - Why does dynamic adjustment require cooperation (and why might a company like google cause a tragedy of the commons by 'optimising' their TCP congestion control)
+        - What signal is used to backoff?
+        - Where does the sawtooth come from?
+        - What phases are there to the standard algorithm
+        - What is Fast Recovery
+    - What are TCP's flavors
+    - How can routers help TCP congestion problems?
+      - Outline Max-Min Fairness
+      - Outline fair queuing
+      - (optional) Outline stocastic fair queueing (sfq) as implemented in Linux
+    - Outline some general 'fairness' qualities and discuss under what circumstances each might be optimal 
