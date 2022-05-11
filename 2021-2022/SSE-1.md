@@ -1,0 +1,30 @@
+- Define (choose several randomly, we'll go over them all in the supervision):
+  - system
+  - subject
+  - person
+  - principal
+  - secrecy
+  - privacy
+  - confidentiality
+  - integrity
+  - authenticity
+  - repudiation
+  - trust
+  - error
+  - failure
+  - hazard
+  - risk
+  - safety
+  - reliability
+  - dependability
+  - security policy
+  - protection profile
+- Outline the [US Secret/Confidential/... MLS, Bell-LaPadula, Bipa], talk about some advantages and disadvantages of them.
+- Outline a safety policy for your bike, specifically show a fault tree analysis that could result in a crash and one which results in your bike being stolen.
+- Define and give an example of Separation of Duty.
+- Discuss the hierarchy of harms, give examples of each level, discuss the cost of each level.
+- Discuss the error rates for given skills and how this impacts security/safety design.
+- Discuss how sales tactics transfer to fraud.
+- Outline why passwords are terrible and what we can do to fix them.
+- Define compliance budgets and discuss how that applies to Airline Pilots, train operators and taxi drivers.
+- Attempt https://www.cl.cam.ac.uk/teaching/exams/pastpapers/y2017p2q5.pdf

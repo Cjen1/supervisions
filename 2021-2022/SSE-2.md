@@ -1,0 +1,27 @@
+- Do 2017p2q5
+- Outline the following attacks and defenses against them:
+  - Relay
+  - Man in the middle
+- Outline and give some code demonstrating the following (some may be
+difficult to give an example of, so don't spend too long on that):
+  - Arithmetic bug
+  - Syntactic bugs
+  - Logic bugs
+  - Concurrency bugs
+  - Buffer overflows
+  - Code injection
+- Outline the main events of the LAS disaster.
+- How can you manage complexity in projects?
+- Why would a large company end of life old projects?
+- Outline the Waterfall model.
+- Outline the evolutionary model.
+- Read and outline: https://how.complexsystems.fail
+- Outline the Therac Accidents
+- Outline the boeing 737 MAX failure
+- What is incidental complexity?
+- Outline formal methods, and discuss why they are not often applied...
+- How do you test code, what general frameworks are used?
+- What is systematic bias, and is it always bad? (hint: look at the efficacy of the security at Israeli airports)
+- What is a zero day? Approximately how much do they go for on the black market? What does this mean for mass exploitation using them and why are they still a problem after they have been 'fixed'?
+- What is a zero blame policy/culture in software management and why can it be beneficial?
+- What is a Gannt chart, a Pert chart and what is the critical path?
