@@ -18,6 +18,7 @@ difficult to give an example of, so don't spend too long on that):
 - Read and outline: https://how.complexsystems.fail
 - Outline the Therac Accidents
 - Outline the boeing 737 MAX failure
+- Outline Failure Modes and Effects Analysis (FMEA)
 - What is incidental complexity?
 - Outline formal methods, and discuss why they are not often applied...
 - How do you test code, what general frameworks are used?
