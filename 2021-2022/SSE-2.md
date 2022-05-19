@@ -21,6 +21,9 @@ difficult to give an example of, so don't spend too long on that):
 - What is incidental complexity?
 - Outline formal methods, and discuss why they are not often applied...
 - How do you test code, what general frameworks are used?
+  - What is unit testing
+  - What is end-to-end testing
+  - What is integration testing
 - What is systematic bias, and is it always bad? (hint: look at the efficacy of the security at Israeli airports)
 - What is a zero day? Approximately how much do they go for on the black market? What does this mean for mass exploitation using them and why are they still a problem after they have been 'fixed'?
 - What is a zero blame policy/culture in software management and why can it be beneficial?
