@@ -20,6 +20,7 @@
   - security policy
   - protection profile
 - Outline the [US Secret/Confidential/... MLS, Bell-LaPadula, Bipa], talk about some advantages and disadvantages of them.
+- Discuss threat models and how to match them to the value of a target
 - Outline a safety policy for your bike, specifically show a fault tree analysis that could result in a crash and one which results in your bike being stolen.
 - Define and give an example of Separation of Duty.
 - Discuss the hierarchy of harms, give examples of each level, discuss the cost of each level.
