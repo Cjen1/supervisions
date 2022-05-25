@@ -5,6 +5,7 @@
   - What are safe-strings?
   - Outline input sanitisation
   - Outline the general approach to SQL injection
+  - Do SQL injection seed lab
 
 - Passwords
   - Outline why passwords are a generally terrible approach (XKCD is relevant here)
@@ -23,6 +24,7 @@
   - What is XSS
   - How can we use XSS to gift ourselfs steam keys using the reviews on steam (Assume they haven't sanitised their reviews)
   - Outline input-as-output
+  - Do seed labs on CSRF and XSS
 
 - Human factors
   - Outline Prospect Theory and apply it to the Ticks in the CST course
