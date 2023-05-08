@@ -28,4 +28,5 @@
 - Discuss how sales tactics transfer to fraud.
 - Outline why passwords are terrible and what we can do to fix them.
 - Define compliance budgets and discuss how that applies to Airline Pilots, train operators and taxi drivers.
+- Discuss prospect theory and apply it to the tick system in CST
 - Attempt https://www.cl.cam.ac.uk/teaching/exams/pastpapers/y2017p2q5.pdf
